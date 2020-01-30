@@ -8,3 +8,11 @@ export interface DataPage {
   facebook?: string;
   equipo_trabajo?: any[];
 }
+
+export interface DataTeams {
+  frase?: string;
+  img?: string;
+  nombre?: string;
+  subtitulo?: string;
+  twitter?: string;
+}
